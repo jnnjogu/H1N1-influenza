@@ -1,0 +1,85 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Environment configuration files
+.env
+*.env
+
+# Data files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.json
+*.zip
+*.gz
+*.h5
+*.pkl
+*.sav
+*.joblib
+*.npy
+*.npz
+
+# Model outputs
+*.pt
+*.pth
+*.hdf5
+*.onnx
+
+# Logs and outputs
+*.log
+*.out
+
+# Notebook execution history
+*.nbconvert.ipynb
+
+# IDE/workspace files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# matplotlib figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+
+# Spyder project settings
+.spyproject/
+
+# MyPy and pyright caches
+.mypy_cache/
+.pyright/
+
+# Profiling data
+*.prof
+*.pstats
+
+# Coverage reports
+htmlcov/
+.coverage
+.cache
+
+# Pytest cache
+.pytest_cache/
+
+# Docker-related
+*.log
+docker-compose.override.yml
