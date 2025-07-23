@@ -31,8 +31,7 @@ The data was collected through a phone survey in the United States asking respon
 #### Assumption:
 Our assumption is that a better understanding of how these characteristics are associated with personal vaccination patterns can provide guidance for future public health efforts.
 ### Model building process
-<img width="781" height="720" alt="image" src="https://github.com/user-attachments/assets/2a751573-e969-49da-9c9e-f63e09d93059" />
-
+![model building](images/crispdm.png)
 
 ### Recommendations
 ---------------------------------------
