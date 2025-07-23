@@ -29,3 +29,29 @@ DrivenData. (2020). Flu Shot Learning: Predict H1N1 and Seasonal Flu Vaccines. R
 The data was collected through a phone survey in the United States asking respondents whether they had received the H1N1 and seasonal flu vaccines, in conjunction with questions about themselves. The other additional questions covered their _social_, _economic_, and _demographic background_, _opinions on risks of illness_ and _vaccine effectiveness, and behaviors towards mitigating transmission_. 
 #### Assumption:
 Our assumption is that a better understanding of how these characteristics are associated with personal vaccination patterns can provide guidance for future public health efforts.
+### Model building process
+![alt text](crispdm.png)
+
+# Recommendations
+---------------------------------------
+
+Based on model evaluation metrics and feature importance analysis, we recommend using the hyperparameter-tuned Logistic Regression model (Model 2) for predicting H1N1 vaccination uptake. Although it does not have the highest ROC-AUC score overall, it achieves the highest recall (72%) among all models—making it especially valuable in public health contexts where identifying as many vaccinated individuals as possible is critical.
+
+This model also offers a balanced trade-off between precision (47%) and recall, as reflected in its highest F1 score (0.573), indicating better generalization than other classifiers.
+
+Feature analysis shows that the most influential predictors of H1N1 vaccination include:
+
+We recommend that vaccination drives / campaigns look into the following attributes because they are highly correlated with vaccine uptake
+
+- Doctor_recc (doctor recommendation) -  Patients often trust their healthcare providers and are more likely to get vaccinated if explicitly advised to do so.
+
+- opinion_h1n1 (perception of vaccine effectiveness) - Personal belief in the effectiveness or safety of the H1N1 vaccine directly influences willingness to get vaccinated. Positive attitudes usually correlate with higher uptake.
+
+- race_Hispanic and race_Other or Multiple - Differences in cultural beliefs, access to healthcare, and targeted public health campaigns may cause variations in vaccine uptake across racial/ethnic groups.
+
+- education level, employment factors, and marital status - Missing education data may correlate with lower socioeconomic status or limited health literacy—both linked to vaccine hesitancy or access issues.
+
+Industry - Different industries/ companies have varying exposure risks and workplace vaccination policies that may enhance or impede vaccination targets.
+
+More data on education and environmental factors may give a clearer light on access and underlying patterns
+
