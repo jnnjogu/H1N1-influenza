@@ -30,9 +30,9 @@ The data was collected through a phone survey in the United States asking respon
 #### Assumption:
 Our assumption is that a better understanding of how these characteristics are associated with personal vaccination patterns can provide guidance for future public health efforts.
 ### Model building process
-![alt text](crispdm.png)
+![alt text](images/crispdm.png)
 
-# Recommendations
+### Recommendations
 ---------------------------------------
 
 Based on model evaluation metrics and feature importance analysis, we recommend using the hyperparameter-tuned Logistic Regression model (Model 2) for predicting H1N1 vaccination uptake. Although it does not have the highest ROC-AUC score overall, it achieves the highest recall (72%) among all models—making it especially valuable in public health contexts where identifying as many vaccinated individuals as possible is critical.
